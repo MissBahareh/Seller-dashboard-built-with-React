@@ -1,8 +1,5 @@
-# React + Vite
+# Seller dashboard built with React
+This dashboard is based on the idea of ​​the Digikala website's vendor dashboard, which still needs to be perfected - it uses a functional type component and, in addition to modular CSS, Bootstrap for styling and responsiveness.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
