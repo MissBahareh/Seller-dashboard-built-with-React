@@ -1,0 +1,172 @@
+.mainDiv {
+  position: relative;
+  display: flex;
+  width: 50%;
+  /* height: 60vh; */
+  /* flex-direction: row; */
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid rgba(0, 0, 0, 0.109);
+  border-radius: 10px;
+  padding: 2px;
+  background-color: rgba(255, 255, 255, 0.471);
+  /* z-index: 100; */
+}
+.mainInterDiv {
+  /* background-color: rgba(190, 47, 173, 0.689); */
+  display: flex;
+  width: 100%;
+  height: 50%;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /* padding: 20px; */
+}
+.h2Div {
+  display: flex;
+  width: 100%;
+  /* background-color: yellow; */
+  height: 10%;
+  margin: 0;
+  padding: 10px;
+  font-size: 1.3rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+.rightDiv {
+  /* background-color: green; */
+  display: flex;
+  /* width: 50%; */
+  height: 40vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.leftDiv {
+  /* background-color: red; */
+  display: flex;
+  /* width: 50%; */
+  height: 40vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftImgDiv {
+  /* background-color: pink; */
+  width: 200px;
+  display: flex;
+  margin: 5px 0px;
+}
+.contentDiv {
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* flex-direction: row; */
+  width: 90%;
+  height: 30%;
+  /* text-align: center; */
+  padding: 20px 10px 10px 10px;
+  font-size: 1rem;
+  cursor: default;
+}
+.formDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 70%;
+  padding: 0px;
+  text-align: center;
+  /* background-color: coral; */
+  /* margin: 0; */
+}
+.floatingLableGroup {
+  /* position: relative; */
+  /* max-width: 500px; */
+  width: 100%;
+  /* background-color: rgb(146, 255, 127); */
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: visible;
+  padding: 0;
+  margin: 0;
+}
+.floatingLable {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 83%;
+  color: rgba(0, 0, 0, 0.515);
+  padding: 0;
+  margin: 0;
+}
+.logInText {
+  width: 83%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.392);
+}
+/* .logInText:focus ~ .floatingLable {
+  top: -10px;
+  font-size: 11px;
+  color: #404040;
+} */
+.formDivSpan {
+  color: red;
+  display: flex;
+  height: 20%;
+  width: 80%;
+  /* background-color: deepskyblue; */
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+.subBTN {
+  background: #1ab1d4;
+  height: 20%;
+  width: 50%;
+  padding-bottom: 5px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+}
+.moreBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.moreBtn button {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 0 30px;
+  background-color: rgba(240, 248, 255, 0.007);
+  /* color: rgba(0, 0, 0, 0.4); */
+  height: 50%;
+  cursor: pointer;
+}
+.formDivBTN {
+  border: none;
+  background-color: #31a38c;
+  color: white;
+  width: 35%;
+  border-radius: 5px;
+  padding-bottom: 5px;
+}

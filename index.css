@@ -1,0 +1,28 @@
+@font-face {
+  font-family: SOGAND;
+  src: url(../assets/font/SOGAND/SOGAND.ttf);
+}
+@font-face {
+  font-family: TrainOne;
+  src: url(../assets/font/TrainOne-Regular.ttf);
+}
+body {
+  ::-webkit-scrollbar {
+    width: 5px;
+    display: none;
+    background-color: rgb(251, 231, 206);
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0px -1px 13px rgb(251, 231, 206);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(204, 125, 29);
+  }
+}
+#root {
+  height: 100vh;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 10px 50px; */
+  height: 10vh;
+  background-color: #09a88a;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+
+}
+.logo {
+  display: flex;
+  width: 100%;
+  height: 13vh;
+}
+.divlogo {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.user {
+  color: whitesmoke;
+  font-size: 18px;
+}
+.ul {
+  height: 10vh;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+.activeTab {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100%;
+  cursor: pointer;
+  padding: 0 20px;
+  font-weight: 600;
+  background-color: #057e68;
+}
+.btns {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  height: 100%;
+  cursor: pointer;
+  padding: 0 20px;
+}
+.menuBTN {
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+  cursor: pointer;
+}

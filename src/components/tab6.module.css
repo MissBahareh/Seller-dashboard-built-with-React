@@ -1,0 +1,372 @@
+.mainTab6 {
+  /* background-color: rgb(228, 39, 39); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  right: 0;
+  padding-top: 10vh;
+}
+.mainTab6Tit {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  /* padding: 0 37px; */
+  width: 100%;
+  height: 8vh;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: aqua; */
+}
+/* @media (min-width: 576px) {
+  .mainTab6Tit {
+    padding: 0 37px;
+  
+  }
+}
+@media (max-width: 576px) {
+  .mainTab6Tit {
+    padding: 0 20px;
+
+  }
+} */
+.mainTab6Search {
+  margin: 0 0 0 8px;
+  border-radius: 5px;
+  border: none;
+  padding: 2px 10px;
+  font-size: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.326);
+}
+.mainTab6Select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 10%;
+  height: 5vh;
+  border-radius: 5px;
+  text-align: center;
+}
+.selectbox {
+  position: relative;
+}
+.selectbox::before {
+  content: "";
+  position: absolute;
+  top: 55%;
+  margin-top: -2px;
+  left: 0.3rem;
+  width: 0;
+  height: 0;
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+}
+.selectboxSelect {
+  width: 150%;
+  padding: 2px 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  appearance: none;
+  font-size: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.326);
+}
+.selectboxSelect option {
+  padding: 2px 5px;
+  margin: 0;
+  font-size: 14px;
+}
+.selectbox::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-top: -6px;
+  right: 0.6rem;
+  width: 0;
+  height: 0;
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+}
+.mainTab6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.mainTab6Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  position: relative;
+}
+/* @media (min-width: 576px) {
+  .mainTab6Content {
+   
+  }
+}
+@media (max-width: 576px) {
+  .mainTab6Content {
+
+  }
+} */
+.mainTab6ContentRowTIT {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 95%;
+  height: 10%;
+  background-color: #09a88a;
+  position: fixed;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+.mainTab6ContentRows {
+  position: sticky;
+  margin-top: 10vh;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  overflow: scroll;
+}
+.mainTab6ContentRow {
+  /* position: sticky;
+  top: 12%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 95%;
+  height: 30%;
+  border: 1px solid rgba(0, 0, 0, 0.222);
+  background-color: white;
+}
+.mainTab6ContentRowDELETE {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #09a88a;
+  border: none;
+  border-radius: 5px;
+  padding: 0 5px 2px;
+  color: white;
+  height: 50%;
+}
+.mainTab6ContentColTIT {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.185);
+}
+.mainTab6ContentColTIT h2 {
+  font-size: 1.2rem;
+  font-family: SOGAND;
+}
+
+.mainTab6ContentCol {
+  width: 20%;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.089);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.mainTab6ContentColfINAL {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.spans {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+.spansFinal {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  flex-wrap: wrap;
+  padding: 5px 0;
+}
+.spansFinalBTN {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+  flex-wrap: wrap;
+  padding: 5px 0;
+}
+
+.inputSpan {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-wrap: wrap;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+}
+
+.divImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  cursor: default;
+}
+.divImginimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 90%; */
+  padding: 10px;
+}
+@media (min-width: 576px) {
+  .mainTab6ContentRowDELETE {
+    font-size: 16px;
+  }
+
+  .mainTab6Tit {
+    padding: 0 37px;
+  }
+  .mainTab6ContentColTIT h2 {
+    font-size: 1.2rem;
+  }
+  .spans {
+    font-size: 16px;
+  }
+  .divImginimg {
+    height: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .mainTab6ContentRowDELETE {
+    font-size: 14px;
+  }
+  .mainTab6Tit {
+    padding: 0 20px;
+  }
+  .mainTab6ContentColTIT h2 {
+    font-size: 0.9rem;
+  }
+  .spans {
+    font-size: 14px;
+  }
+  .divImginimg {
+    height: 80%;
+  }
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 10px 50px; */
+  height: 10vh;
+  background-color: #09a88a;
+  width: 100%;
+  overflow: hidden;
+  /* position: fixed; */
+  z-index: 5;
+}
+.logo {
+  display: flex;
+  width: 100%;
+  height: 13vh;
+}
+.divlogo {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.user {
+  color: whitesmoke;
+  font-size: 18px;
+}
+.ul {
+  height: 10vh;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+.activeTab {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100%;
+  cursor: pointer;
+  padding: 0 20px;
+  font-weight: 600;
+  background-color: #057e68;
+}
+.btns {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  height: 100%;
+  cursor: pointer;
+  padding: 0 20px;
+}
+.menuBTN {
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+  cursor: pointer;
+}

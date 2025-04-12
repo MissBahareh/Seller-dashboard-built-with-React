@@ -1,0 +1,31 @@
+.maimTab3 {
+  background-image: url(../assets/UnderConstruction.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  height:100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 10vh;
+  flex-direction: column;
+  z-index: 1;
+
+
+
+}
+.maimSpan{
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 25px;
+
+}
